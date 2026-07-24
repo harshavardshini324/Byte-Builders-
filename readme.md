@@ -1,4 +1,4 @@
-# Walkthrough - Python CLI Docstring Generator (`doc_generator.py`)
+Automated Python Generator
 
 We have built `doc_generator.py`, an automated Python CLI tool that parses Python files, identifies functions missing docstrings using Python's `ast` module, generates docstrings using the `google-genai` SDK (`gemini-2.5-flash`), and injects them back into the source code via `ast.NodeTransformer` and `ast.unparse()`.
 
